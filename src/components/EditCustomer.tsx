@@ -33,7 +33,7 @@ function EditCustomer(){
 
         evt.preventDefault();
         try {
-            const url =  `http://localhost:9000/customers`;
+            const url =  `http://localhost:9001/customers`;
             await axios.put(url, customer);
             navigate("/customers");
 

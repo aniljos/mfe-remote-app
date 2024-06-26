@@ -15,7 +15,7 @@ function App() {
         <Router>
             <nav className="navbar navbar-dark bg-dark">
                 <div className="container-fluid">
-                    <Link className="navbar-brand" to="/">React MFE Host</Link>
+                    <Link className="navbar-brand" to="/">React MFE Remote</Link>
                     <ul className="nav">
                         <li className="nav-item">
                             <Link className="nav-link active" aria-current="page" to="/">Home</Link>

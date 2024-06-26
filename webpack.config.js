@@ -48,15 +48,13 @@ module.exports = {
         //     filename:
         //       'remoteEntry.js',
         //     exposes: {
-        //         './ListCustomers': './src/components/ListCustomers',
-        //         './EditCustomer': './src/components/EditCustomer',
         //     },
         //     shared: {
         //       react: { singleton: true, eager: true },
         //       'react-dom': { singleton: true, eager: true },
         //       'react-redux': { singleton: true, eager: true },
         //       redux: { singleton: true, eager: true },
-        //       'react-router-dom': { singleton: true, eager: true },
+        //       
         //     },
         //   })
     ],

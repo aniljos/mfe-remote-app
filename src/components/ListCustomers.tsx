@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 import { useSelector } from "react-redux";
 import { RootState } from "../redux/store";
 
-const baseUrl = "http://localhost:9000/customers";
+const baseUrl = "http://localhost:9001/customers";
 function ListCustomers(){
 
     const [customer, setCustomer] = useState<Customer[]>([]);

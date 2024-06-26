@@ -11,6 +11,10 @@ const Counter = (props: CounterProps)=> {
     useEffect(() => {
         
         console.log("counter updated", counter);
+        window.addEventListener('counter', (e: any) => {
+            console.log(e)
+            setCounter(e.detail)
+        })
 
     }, [counter])
 
@@ -29,6 +33,7 @@ const Counter = (props: CounterProps)=> {
 
     return (
         <div>
+            <h4>Counter</h4>
             <div role='alert' aria-live='assertive' className='alert alert-info'>Count: {counter}</div>
             <div>
                 <button autoFocus className='btn btn-success' onClick={inc}>Increment</button>&nbsp;
